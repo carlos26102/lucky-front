@@ -1,0 +1,26 @@
+// body {
+//   margin: 0;
+//   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+//     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+//     sans-serif;
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+// }
+
+// code {
+//   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+//     monospace;
+// }
+
+@import "./assets/icons/style.scss";
+@import "./assets/icons/variables.scss";
+@import "./assets/fonts/Barlow/stylesheet.css";
+
+@import "./styles/imports/settings.imports";
+// @import "styles/imports/tools.imports";
+// @import "styles/imports/generic.imports";
+@import "./styles/imports/elements.imports";
+// @import "styles/imports/blocks.imports";
+// @import "styles/imports/utilities.imports";
+
+

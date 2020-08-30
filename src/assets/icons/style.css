@@ -1,0 +1,203 @@
+@font-face {
+  font-family: 'lucky';
+  src:
+    url('fonts/lucky.ttf?ewcnmb') format('truetype'),
+    url('fonts/lucky.woff?ewcnmb') format('woff'),
+    url('fonts/lucky.svg?ewcnmb#lucky') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="lucky-"], [class*=" lucky-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'lucky' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.lucky-back-arrow:before {
+  content: "\e900";
+}
+.lucky-bird:before {
+  content: "\e901";
+}
+.lucky-blog:before {
+  content: "\e902";
+}
+.lucky-boy:before {
+  content: "\e903";
+}
+.lucky-calendar:before {
+  content: "\e904";
+}
+.lucky-camera:before {
+  content: "\e905";
+}
+.lucky-cat:before {
+  content: "\e906";
+}
+.lucky-circle:before {
+  content: "\e907";
+}
+.lucky-close:before {
+  content: "\e908";
+}
+.lucky-complete:before {
+  content: "\e909";
+}
+.lucky-config:before {
+  content: "\e90a";
+}
+.lucky-dog:before {
+  content: "\e90b";
+}
+.lucky-dog-ball:before {
+  content: "\e90c";
+}
+.lucky-dog-house:before {
+  content: "\e90d";
+}
+.lucky-donate:before {
+  content: "\e90e";
+}
+.lucky-down-arrow:before {
+  content: "\e90f";
+}
+.lucky-education:before {
+  content: "\e910";
+}
+.lucky-email:before {
+  content: "\e911";
+}
+.lucky-events:before {
+  content: "\e912";
+}
+.lucky-export:before {
+  content: "\e913";
+}
+.lucky-eye:before {
+  content: "\e914";
+}
+.lucky-female:before {
+  content: "\e915";
+}
+.lucky-ferret:before {
+  content: "\e916";
+}
+.lucky-filter:before {
+  content: "\e917";
+}
+.lucky-fish:before {
+  content: "\e918";
+}
+.lucky-frog:before {
+  content: "\e919";
+}
+.lucky-girl:before {
+  content: "\e91a";
+}
+.lucky-hair-dryer:before {
+  content: "\e91b";
+}
+.lucky-hamster:before {
+  content: "\e91c";
+}
+.lucky-heart:before {
+  content: "\e91d";
+}
+.lucky-home:before {
+  content: "\e91e";
+}
+.lucky-info:before {
+  content: "\e91f";
+}
+.lucky-localization:before {
+  content: "\e920";
+}
+.lucky-logout:before {
+  content: "\e921";
+}
+.lucky-male:before {
+  content: "\e922";
+}
+.lucky-mammal:before {
+  content: "\e923";
+}
+.lucky-maps:before {
+  content: "\e924";
+}
+.lucky-next-arrow:before {
+  content: "\e925";
+}
+.lucky-notification:before {
+  content: "\e926";
+}
+.lucky-oval:before {
+  content: "\e927";
+}
+.lucky-paw:before {
+  content: "\e928";
+}
+.lucky-pet:before {
+  content: "\e929";
+}
+.lucky-pet-adoption:before {
+  content: "\e92a";
+}
+.lucky-pet-friendly:before {
+  content: "\e92b";
+}
+.lucky-petgarten:before {
+  content: "\e92c";
+}
+.lucky-pet-house:before {
+  content: "\e92d";
+}
+.lucky-pet-shop:before {
+  content: "\e92e";
+}
+.lucky-plus:before {
+  content: "\e92f";
+}
+.lucky-progress:before {
+  content: "\e930";
+}
+.lucky-rabbit:before {
+  content: "\e931";
+}
+.lucky-reject:before {
+  content: "\e932";
+}
+.lucky-search:before {
+  content: "\e933";
+}
+.lucky-snake:before {
+  content: "\e934";
+}
+.lucky-spider:before {
+  content: "\e935";
+}
+.lucky-sponsor:before {
+  content: "\e936";
+}
+.lucky-up-arrow:before {
+  content: "\e937";
+}
+.lucky-veterinary:before {
+  content: "\e938";
+}
+.lucky-veterinary-clinic:before {
+  content: "\e939";
+}
+.lucky-whatsapp:before {
+  content: "\e93a";
+}

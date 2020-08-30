@@ -1,0 +1,324 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?ewcnmb') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?ewcnmb') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?ewcnmb##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="lucky-"], [class*=" lucky-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.lucky-back-arrow {
+  &:before {
+    content: $lucky-back-arrow; 
+  }
+}
+.lucky-bird {
+  &:before {
+    content: $lucky-bird; 
+  }
+}
+.lucky-blog {
+  &:before {
+    content: $lucky-blog; 
+  }
+}
+.lucky-boy {
+  &:before {
+    content: $lucky-boy; 
+  }
+}
+.lucky-calendar {
+  &:before {
+    content: $lucky-calendar; 
+  }
+}
+.lucky-camera {
+  &:before {
+    content: $lucky-camera; 
+  }
+}
+.lucky-cat {
+  &:before {
+    content: $lucky-cat; 
+  }
+}
+.lucky-circle {
+  &:before {
+    content: $lucky-circle; 
+  }
+}
+.lucky-close {
+  &:before {
+    content: $lucky-close; 
+  }
+}
+.lucky-complete {
+  &:before {
+    content: $lucky-complete; 
+  }
+}
+.lucky-config {
+  &:before {
+    content: $lucky-config; 
+  }
+}
+.lucky-dog {
+  &:before {
+    content: $lucky-dog; 
+  }
+}
+.lucky-dog-ball {
+  &:before {
+    content: $lucky-dog-ball; 
+  }
+}
+.lucky-dog-house {
+  &:before {
+    content: $lucky-dog-house; 
+  }
+}
+.lucky-donate {
+  &:before {
+    content: $lucky-donate; 
+  }
+}
+.lucky-down-arrow {
+  &:before {
+    content: $lucky-down-arrow; 
+  }
+}
+.lucky-education {
+  &:before {
+    content: $lucky-education; 
+  }
+}
+.lucky-email {
+  &:before {
+    content: $lucky-email; 
+  }
+}
+.lucky-events {
+  &:before {
+    content: $lucky-events; 
+  }
+}
+.lucky-export {
+  &:before {
+    content: $lucky-export; 
+  }
+}
+.lucky-eye {
+  &:before {
+    content: $lucky-eye; 
+  }
+}
+.lucky-female {
+  &:before {
+    content: $lucky-female; 
+  }
+}
+.lucky-ferret {
+  &:before {
+    content: $lucky-ferret; 
+  }
+}
+.lucky-filter {
+  &:before {
+    content: $lucky-filter; 
+  }
+}
+.lucky-fish {
+  &:before {
+    content: $lucky-fish; 
+  }
+}
+.lucky-frog {
+  &:before {
+    content: $lucky-frog; 
+  }
+}
+.lucky-girl {
+  &:before {
+    content: $lucky-girl; 
+  }
+}
+.lucky-hair-dryer {
+  &:before {
+    content: $lucky-hair-dryer; 
+  }
+}
+.lucky-hamster {
+  &:before {
+    content: $lucky-hamster; 
+  }
+}
+.lucky-heart {
+  &:before {
+    content: $lucky-heart; 
+  }
+}
+.lucky-home {
+  &:before {
+    content: $lucky-home; 
+  }
+}
+.lucky-info {
+  &:before {
+    content: $lucky-info; 
+  }
+}
+.lucky-localization {
+  &:before {
+    content: $lucky-localization; 
+  }
+}
+.lucky-logout {
+  &:before {
+    content: $lucky-logout; 
+  }
+}
+.lucky-male {
+  &:before {
+    content: $lucky-male; 
+  }
+}
+.lucky-mammal {
+  &:before {
+    content: $lucky-mammal; 
+  }
+}
+.lucky-maps {
+  &:before {
+    content: $lucky-maps; 
+  }
+}
+.lucky-next-arrow {
+  &:before {
+    content: $lucky-next-arrow; 
+  }
+}
+.lucky-notification {
+  &:before {
+    content: $lucky-notification; 
+  }
+}
+.lucky-oval {
+  &:before {
+    content: $lucky-oval; 
+  }
+}
+.lucky-paw {
+  &:before {
+    content: $lucky-paw; 
+  }
+}
+.lucky-pet {
+  &:before {
+    content: $lucky-pet; 
+  }
+}
+.lucky-pet-adoption {
+  &:before {
+    content: $lucky-pet-adoption; 
+  }
+}
+.lucky-pet-friendly {
+  &:before {
+    content: $lucky-pet-friendly; 
+  }
+}
+.lucky-petgarten {
+  &:before {
+    content: $lucky-petgarten; 
+  }
+}
+.lucky-pet-house {
+  &:before {
+    content: $lucky-pet-house; 
+  }
+}
+.lucky-pet-shop {
+  &:before {
+    content: $lucky-pet-shop; 
+  }
+}
+.lucky-plus {
+  &:before {
+    content: $lucky-plus; 
+  }
+}
+.lucky-progress {
+  &:before {
+    content: $lucky-progress; 
+  }
+}
+.lucky-rabbit {
+  &:before {
+    content: $lucky-rabbit; 
+  }
+}
+.lucky-reject {
+  &:before {
+    content: $lucky-reject; 
+  }
+}
+.lucky-search {
+  &:before {
+    content: $lucky-search; 
+  }
+}
+.lucky-snake {
+  &:before {
+    content: $lucky-snake; 
+  }
+}
+.lucky-spider {
+  &:before {
+    content: $lucky-spider; 
+  }
+}
+.lucky-sponsor {
+  &:before {
+    content: $lucky-sponsor; 
+  }
+}
+.lucky-up-arrow {
+  &:before {
+    content: $lucky-up-arrow; 
+  }
+}
+.lucky-veterinary {
+  &:before {
+    content: $lucky-veterinary; 
+  }
+}
+.lucky-veterinary-clinic {
+  &:before {
+    content: $lucky-veterinary-clinic; 
+  }
+}
+.lucky-whatsapp {
+  &:before {
+    content: $lucky-whatsapp; 
+  }
+}
+
